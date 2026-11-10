@@ -42,4 +42,7 @@ The dataset contains 16 sample order records with the following columns:
 ## Conclusion
 This project demonstrates how SQL can be used to analyze e-commerce data and generate useful insights about sales, customers, products, and business performance.
 
+##Author
+Afrin K
+
 *Note: This project uses sample data for demonstration purposes.*
