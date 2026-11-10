@@ -1,74 +1,47 @@
-# Sales Data Analysis Using SQL
+# HR Analytics Using SQL
 
 ## Project Overview
-This project analyzes sales data using MySQL to identify revenue trends, top-performing products, product categories, and regional sales performance.
+This project analyzes employee data using MySQL to understand workforce distribution, salary patterns, employee attrition, job satisfaction, and work experience.
 
 ## Objectives
-- Calculate total sales revenue.
-- Identify total orders and items sold.
-- Calculate average order value.
-- Analyze category-wise revenue.
-- Compare sales across regions.
-- Identify monthly sales trends.
-- Find top revenue-generating products.
+- Analyze employee distribution across departments.
+- Calculate average salary by department.
+- Identify employee attrition patterns.
+- Analyze job satisfaction levels.
+- Study average employee experience.
+- Calculate the overall attrition rate.
 
 ## Tools Used
-- MySQL Server 8.0
-- MySQL Workbench 8.0
+- MySQL
+- MySQL Workbench
 - SQL
 
-## Dataset Details
-The dataset contains 16 sample sales records with the following columns:
+## Dataset
+The dataset contains 16 sample employee records with the following columns:
 
-| Column | Description |
-|---|---|
-| sale_id | Unique sale ID |
-| sale_date | Date of sale |
-| product_name | Name of product |
-| category | Product category |
-| quantity | Number of items sold |
-| price | Price per item |
-| region | Sales region |
-
-## Key Findings
-
-| Metric | Result |
-|---|---:|
-| Total Orders | 16 |
-| Total Revenue | ₹1,29,968 |
-| Average Order Value | ₹8,123 |
-| Total Items Sold | 54 |
-| Top Category | Electronics |
-| Top Region | North |
-| Top Product | Laptop |
-| Best Sales Month | January |
-
-## Monthly Revenue
-
-| Month | Revenue |
-|---|---:|
-| January | ₹80,848 |
-| February | ₹49,120 |
+- Employee ID
+- Employee Name
+- Department
+- Job Role
+- Salary
+- Experience
+- Job Satisfaction
+- Attrition
 
 ## SQL Analysis Performed
-1. Database and table creation.
-2. Data insertion and retrieval.
-3. Total revenue calculation.
-4. Total orders calculation.
-5. Average order value calculation.
-6. Category-wise sales analysis.
-7. Region-wise sales analysis.
-8. Monthly revenue analysis.
-9. Top-selling product analysis.
-10. Final sales summary.
+1. Department-wise Employee Count
+2. Average Salary by Department
+3. Employee Attrition Analysis
+4. Department-wise Attrition
+5. Job Satisfaction Analysis
+6. Experience-wise Employee Analysis
+7. Overall Employee Attrition Rate
+8. Attrition by Job Satisfaction
 
 ## Conclusion
-The analysis shows that Electronics is the highest-performing category, North is the leading sales region, and Laptop generates the highest revenue among the products in this sample dataset.
+This project demonstrates how SQL can be used to analyze employee data and identify patterns related to workforce distribution, salaries, job satisfaction, and attrition.
 
-January recorded higher revenue than February.
+*Note: This project uses sample data for analysis and demonstration purposes.*
 
-## Note
-This project uses sample sales data created for SQL analysis and demonstration purposes.
-
-## Author
+##Author
 Afrin K
